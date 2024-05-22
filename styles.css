@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.container{
+    max-width: 700px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.intro{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.intro h1 {
+    font-weight: 700;
+    color: hsl(249, 10%, 26%);
+    margin-bottom: 20px;
+}
+.intro p{
+    color: hsl(246, 25%, 77%);
+    margin-bottom: 40px;
+}
+.signup .offer{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: 500; 
+}
+.signup form{
+    display: flex;
+    flex-direction: column;  
+}
+.form-control{
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-control input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .form-control input:focus {
+    border-color: hsl(248, 32%, 49%);
+    outline: none;
+  }
+  .form-control small {
+    color: hsl(0, 100%, 74%);
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    visibility: hidden;
+    font-size: 12px;
+  }
+  button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  button:hover {
+    background-color: #32b27e;
+  }
+  .terms {
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .terms a {
+    color: hsl(248, 32%, 49%);
+    text-decoration: none;
+  }
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  /* Responsive Design */
+@media (max-width: 375px) {
+    .container {
+      max-width: 100%;
+    }
+  }
