@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const passwordValue = password.value.trim();
   
       if (firstNameValue === '') {
-        setErrorFor(firstName, 'First Name cannot be empty');
+        setErrorFor(firstName, ' First Name cannot be empty');
       } else {
         setSuccessFor(firstName);
       }
